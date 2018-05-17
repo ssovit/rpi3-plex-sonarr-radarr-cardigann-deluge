@@ -8,10 +8,10 @@ then run `./setup.sh`
 
 This script installs
 
-Plex Media Server
-Sonarr
-Radarr
-Cardigann
-Deluge Torrent client
+- Plex Media Server
+- Sonarr
+- Radarr
+- Cardigann
+- Deluge Torrent client
 
 You are welcome to send pull requests with any imrovements that you have done including README.md :)
