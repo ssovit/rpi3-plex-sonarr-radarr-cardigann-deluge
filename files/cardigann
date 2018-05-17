@@ -1,0 +1,13 @@
+[Unit]	
+Description=Cardigann Daemon
+[Service]
+User=pi
+Group=pi
+Type=simple
+GuessMainPID=no
+ExecStart=/opt/cardigann/cardigann server --bind="0.0.0.0" --port="5060" --passphrase="welcome"
+Restart=always
+RestartSec=120
+
+[Install]
+WantedBy=multi-user.target
